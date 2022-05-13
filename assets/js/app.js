@@ -60,7 +60,4 @@ function fall() {
         $(bombe).offset({ top: 0})
     }
 
-    if($(bombe).viewportX != $(Personnage).viewport().positionX || $(bombe).positionY === $(Personnage).positionY || $(bombe).positionZ === $(Personnage).positionZ){
-        alert('perdu')
-    }
 }
